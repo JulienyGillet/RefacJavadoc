@@ -1,5 +1,7 @@
 import java.util.ArrayList;
-
+/**
+ * @author jgillet
+ * */
 public class ClaseExeMain {
     public static void main(String[] args) {
         Assignatura ass1 = new Assignatura(1,"Xarxes",150,6,5);
