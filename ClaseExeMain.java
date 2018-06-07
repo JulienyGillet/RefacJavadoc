@@ -11,5 +11,6 @@ public class ClaseExeMain {
         assignatures.add(ass3);
         Matricula prova = new Matricula(2018090103, "Josep", "Garcia Marti", "12345678X", 1, assignatures);
         System.out.print("Cost de la matricula " + prova.costMatricula());
+        System.out.print(" "+ Estudiant.getNom());
     }
 }

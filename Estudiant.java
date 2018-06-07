@@ -1,4 +1,8 @@
 public class Estudiant {
+    public static String getNom() {
+        return nom;
+    }
+
     private static String nom = "";
     private static String cognoms = "";
     public static void setNom(String nom) {
