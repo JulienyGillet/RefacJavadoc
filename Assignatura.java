@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-
 public class Assignatura {
     public long id = 0;
     private int hores = 0;
     public int credits = 0;
-    private boolean disponible = false;
+    private int plaza = 0;
     private String nom = "";
 
     public long getId() {
@@ -23,8 +21,8 @@ public class Assignatura {
         return credits;
     }
 
-    public boolean isDisponible() {
-        return disponible;
+    public int getPlaza() {
+        return plaza;
     }
 
     public void setId(long id) {
@@ -43,15 +41,15 @@ public class Assignatura {
         this.credits = credits;
     }
 
-    public void setDisponible(boolean disponible) {
-        this.disponible = disponible;
+    public void setPlaza(int plaza) {
+        this.plaza = plaza;
     }
-    public Assignatura(long id, String nom, int hores, int credits, boolean disponible) {
+    public Assignatura(long id, String nom, int hores, int credits, int plaza) {
         this.id = id;
         this.nom = nom;
         this.hores = hores;
         this.credits = credits;
-        this.disponible = disponible;
+        this.plaza = plaza;
     }
 
 }
